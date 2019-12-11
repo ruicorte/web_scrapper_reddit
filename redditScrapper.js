@@ -13,7 +13,7 @@ puppeteer
         });
     })
     .then(function(html) {
-        $('h2', html).each(function() {
+        $('h3', html).each(function() {
             console.log($(this).text());
         });
     })
